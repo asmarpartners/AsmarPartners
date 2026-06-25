@@ -144,7 +144,7 @@ function SuggestionPlan({ result }: { result: WorkflowSuggestionResponse }) {
         <p className="mt-3 text-lg font-semibold text-[var(--foreground)]">{plan.recommended_first_workflow}</p>
       </PlanSection>
 
-      <PlanSection title="Why this workflow fits the user’s role">
+      <PlanSection title="Why this workflow fits the user's role">
         <p className="mt-3 text-sm leading-6 text-[var(--muted)]">{plan.why_this_workflow_fits}</p>
       </PlanSection>
 
@@ -182,7 +182,7 @@ function SuggestionPlan({ result }: { result: WorkflowSuggestionResponse }) {
         <p className="mt-3 leading-7 text-[var(--muted)]">{plan.contact_asmar_partners.body}</p>
         <a
           className="focus-ring mt-5 inline-flex rounded-md bg-[var(--accent)] px-5 py-3 text-sm font-semibold text-white hover:bg-[var(--accent-strong)]"
-          href="mailto:contact@asmarpartners.com?subject=Schedule%20an%20AI%20Risk%20%26%20Opportunity%20Review"
+          href="/contact"
         >
           {plan.contact_asmar_partners.button_text}
         </a>

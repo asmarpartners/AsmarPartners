@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 
+import { JsonLd } from "@/components/json-ld";
+import { SiteFooter, SiteHeader } from "@/components/site-shell";
+import { createPageMetadata } from "@/lib/seo";
+import { professionalServiceSchema } from "@/lib/schema";
+import { siteConfig } from "@/lib/site-config";
+
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Asmar Partners | Secure AI Adoption Starts with the Workflow",
-  description:
-    "Asmar Partners helps professional-services firms identify repetitive internal work, apply AI safely, and launch controlled workflow pilots.",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: siteConfig.defaultTitle,
+  description: siteConfig.defaultDescription,
+  path: "/",
+  canonical: false,
+});
 
 export default function RootLayout({
   children,
@@ -15,7 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <JsonLd data={professionalServiceSchema()} />
+        <SiteHeader />
+        {children}
+        <SiteFooter />
+      </body>
     </html>
   );
 }

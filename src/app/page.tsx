@@ -1,107 +1,107 @@
-import Image from "next/image";
+import Link from "next/link";
 
 import { WorkflowSuggestionTool } from "@/components/workflow-suggestion-tool";
+import { createPageMetadata } from "@/lib/seo";
+import { absoluteUrl, siteConfig } from "@/lib/site-config";
+
+const homeDescription =
+  "Asmar Partners helps professional services businesses adopt AI safely with practical workflows, governance guardrails, client-owned tools, human review, and measurable productivity gains. Schedule an AI Risk & Opportunity Review.";
+
+export const metadata = createPageMetadata({
+  title: siteConfig.defaultTitle,
+  description: homeDescription,
+  path: "/",
+  canonical: false,
+});
 
 const services = [
   {
     name: "AI Risk & Opportunity Review",
+    href: "/ai-risk-opportunity-review",
     description:
-      "Identify where AI can realistically help, where it should not be used, and which internal workflow is the safest first pilot.",
+      "Identify practical AI opportunities, shadow AI risk, client-data concerns, and the safest first workflow before implementation.",
   },
   {
-    name: "Secure AI Adoption Sprint + Prototype",
+    name: "Secure AI Adoption Sprint",
+    href: "/secure-ai-adoption-sprint",
     description:
-      "Design and configure one controlled workflow prototype with usage guardrails, human review points, and handoff documentation.",
+      "Build one controlled AI workflow prototype with governance guardrails, human review checkpoints, documentation, and measurement.",
   },
   {
-    name: "AI Governance and Workflow Measurement",
+    name: "AI governance guardrails",
+    href: "/ai-governance-professional-services",
     description:
-      "Create practical AI usage rules, approval checkpoints, and success metrics so adoption can be measured instead of guessed.",
+      "Create practical rules for employee AI use, client information, approved and prohibited use cases, and review expectations.",
   },
+  {
+    name: "client-owned AI workflows",
+    href: "/client-owned-ai-workflows",
+    description:
+      "Design AI-assisted workflows and prototypes that stay owned by your business, documented, governed, and maintainable.",
+  },
+  {
+    name: "AI adoption measurement",
+    href: "/ai-adoption-roi-measurement",
+    description:
+      "Track workflow usage, measurable time savings, review effort, exceptions, and risk-control status after launch.",
+  },
+];
+
+const examples = [
+  "Accounting and bookkeeping firms",
+  "Fractional CFO and consulting teams",
+  "Agencies, engineering firms, and architecture practices",
 ];
 
 export default function Home() {
   return (
-    <main>
-      <header className="border-b border-[var(--line)] bg-[var(--surface)]/95">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-5 px-5 py-4 sm:px-6 lg:px-8">
-          <a href="#top" className="focus-ring flex items-center gap-3 rounded-md">
-            <Image
-              src="/logo.svg"
-              alt="Asmar Partners logo"
-              width={240}
-              height={170}
-              priority
-              className="h-32 w-auto sm:h-36 lg:h-40"
-            />
-            <span className="hidden text-base font-semibold text-[var(--foreground)] sm:inline">
-              Asmar Partners
-            </span>
-          </a>
-          <nav aria-label="Main navigation" className="hidden items-center gap-6 text-sm text-[var(--muted)] md:flex">
-            <a className="focus-ring rounded-md hover:text-[var(--foreground)]" href="#services">
-              Services
-            </a>
-            <a className="focus-ring rounded-md hover:text-[var(--foreground)]" href="#workflow-preview">
-              Workflow Preview
-            </a>
-            <a className="focus-ring rounded-md hover:text-[var(--foreground)]" href="#contact">
-              Contact
-            </a>
-          </nav>
-          <a
-            className="focus-ring rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white hover:bg-[var(--accent-strong)]"
-            href="#contact"
-          >
-            Schedule Review
-          </a>
-        </div>
-      </header>
-
-      <section id="top" className="border-b border-[var(--line)] bg-[var(--surface)]">
+    <>
+      <link rel="canonical" href={absoluteUrl("/")} />
+      <main>
+      <section className="border-b border-[var(--line)] bg-[var(--surface)]">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1.25fr_0.75fr] lg:px-8 lg:py-20">
           <div className="max-w-3xl">
             <p className="mb-4 text-sm font-semibold text-[var(--accent)]">
-              Business workflow and secure AI adoption consulting
+              Safe AI adoption for professional services businesses
             </p>
             <h1 className="text-4xl font-semibold leading-[1.08] text-[var(--foreground)] sm:text-5xl lg:text-6xl">
-              Secure AI adoption starts with the workflow, not the tool.
+              Adopt AI safely without putting client data, trust, or operations at risk.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[var(--muted)]">
-              Asmar Partners helps professional-services firms identify repetitive internal work, apply AI safely, and launch controlled workflow pilots with clear guardrails and measurable value.
+              Asmar Partners helps professional services businesses identify practical AI workflows, reduce shadow AI
+              risk, create governance guardrails, and build client-owned prototypes that produce measurable time
+              savings.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a
+              <Link
                 className="focus-ring inline-flex justify-center rounded-md bg-[var(--accent)] px-5 py-3 text-sm font-semibold text-white hover:bg-[var(--accent-strong)]"
-                href="#contact"
+                href="/contact"
               >
                 Schedule an AI Risk & Opportunity Review
-              </a>
-              <a
+              </Link>
+              <Link
                 className="focus-ring inline-flex justify-center rounded-md border border-[var(--line)] bg-white px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:border-[var(--accent)]"
-                href="#workflow-preview"
+                href="/secure-ai-adoption-sprint"
               >
-                Preview a Workflow Opportunity
-              </a>
+                See How the Secure AI Adoption Sprint Works
+              </Link>
             </div>
           </div>
 
           <div className="self-end border-l-4 border-[var(--accent)] bg-[var(--background)] p-6">
-            <p className="text-sm font-semibold text-[var(--foreground)]">
-              Controlled pilot path
-            </p>
+            <p className="text-sm font-semibold text-[var(--foreground)]">A practical adoption path</p>
             <ol className="mt-5 space-y-4 text-sm leading-6 text-[var(--muted)]">
               <li>
-                <span className="font-semibold text-[var(--foreground)]">1. Map the workflow.</span>{" "}
-                Confirm the repetitive task, business owner, data sensitivity, and review process.
+                <span className="font-semibold text-[var(--foreground)]">1. Review risk and opportunity.</span>{" "}
+                Identify shadow AI use, client information risk, and workflows where AI could safely assist.
               </li>
               <li>
-                <span className="font-semibold text-[var(--foreground)]">2. Build guardrails.</span>{" "}
-                Define approved tools, human checkpoints, and what data should not be used.
+                <span className="font-semibold text-[var(--foreground)]">2. Build guardrails first.</span> Define
+                approved use cases, data-handling rules, human review points, and ownership.
               </li>
               <li>
-                <span className="font-semibold text-[var(--foreground)]">3. Measure the pilot.</span>{" "}
-                Track usage, time saved, review effort, risk controls, and adoption.
+                <span className="font-semibold text-[var(--foreground)]">3. Prototype and measure.</span> Test one
+                workflow with client-owned AI tools, documentation, usage tracking, and measurable time savings.
               </li>
             </ol>
           </div>
@@ -113,74 +113,107 @@ export default function Home() {
           <div className="max-w-2xl">
             <p className="text-sm font-semibold text-[var(--accent)]">Services</p>
             <h2 className="mt-3 text-3xl font-semibold text-[var(--foreground)]">
-              Practical help for safe internal AI workflows.
+              Practical AI workflows with governance, review, and measurement built in.
             </h2>
+            <p className="mt-4 leading-7 text-[var(--muted)]">
+              Asmar Partners is not generic AI consulting. The work starts with workflow fit, client information risk,
+              and the controls needed for safe AI adoption.
+            </p>
           </div>
           <div className="mt-10 divide-y divide-[var(--line)] border-y border-[var(--line)]">
             {services.map((service) => (
-              <div key={service.name} className="grid gap-3 py-6 md:grid-cols-[0.55fr_1fr] md:gap-10">
-                <h3 className="text-lg font-semibold text-[var(--foreground)]">{service.name}</h3>
+              <article key={service.href} className="grid gap-3 py-6 md:grid-cols-[0.55fr_1fr] md:gap-10">
+                <h3 className="text-lg font-semibold text-[var(--foreground)]">
+                  <Link className="focus-ring rounded-md hover:text-[var(--accent)]" href={service.href}>
+                    {service.name}
+                  </Link>
+                </h3>
                 <p className="leading-7 text-[var(--muted)]">{service.description}</p>
-              </div>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="workflow-preview" className="border-b border-[var(--line)] bg-[var(--surface)]">
+      <section className="border-b border-[var(--line)] bg-[var(--surface)]">
+        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-16 sm:px-6 md:grid-cols-[0.85fr_1.15fr] lg:px-8">
+          <div>
+            <p className="text-sm font-semibold text-[var(--accent)]">Built for service businesses</p>
+            <h2 className="mt-3 text-3xl font-semibold text-[var(--foreground)]">
+              Useful for teams that handle client information and review-heavy work.
+            </h2>
+          </div>
+          <div>
+            <p className="leading-7 text-[var(--muted)]">
+              The approach applies to professional services businesses where client trust, operational consistency, and
+              human review matter. Examples include:
+            </p>
+            <ul className="mt-5 grid gap-3 text-[var(--muted)] sm:grid-cols-3">
+              {examples.map((example) => (
+                <li key={example} className="border-l-2 border-[var(--accent)] bg-white px-4 py-3 text-sm font-semibold">
+                  {example}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="workflow-preview" className="border-b border-[var(--line)]">
         <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold text-[var(--accent)]">Workflow Preview</p>
             <h2 className="mt-3 text-3xl font-semibold text-[var(--foreground)]">
-              AI Workflow Suggestion Preview
+              Preview where AI might safely assist internal work.
             </h2>
             <p className="mt-4 leading-7 text-[var(--muted)]">
-              Enter your role and optionally describe repetitive work. The preview will suggest internal workflow opportunities, remove tasks you say are already handled, and produce a practical suggestion plan.
+              Enter your role and optionally describe repetitive work. The preview suggests internal workflow
+              opportunities, filters out work you say is already handled, and keeps client information out of the input.
             </p>
           </div>
           <WorkflowSuggestionTool />
         </div>
       </section>
 
-      <section id="contact" className="border-b border-[var(--line)]">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:px-8">
-          <div className="grid gap-8 md:grid-cols-[1fr_0.7fr] md:items-center">
-            <div>
-              <h2 className="text-3xl font-semibold text-[var(--foreground)]">
-                Want this mapped to your actual workflow?
-              </h2>
-              <p className="mt-4 max-w-2xl leading-7 text-[var(--muted)]">
-                This preview is based on limited information. Asmar Partners can help identify the safest first AI workflow, define governance guardrails, build a controlled prototype, and measure results during a 30-day pilot.
-              </p>
-            </div>
-            <div className="md:text-right">
-              <a
-                className="focus-ring inline-flex justify-center rounded-md bg-[var(--accent)] px-5 py-3 text-sm font-semibold text-white hover:bg-[var(--accent-strong)]"
-                href="mailto:contact@asmarpartners.com?subject=Schedule%20an%20AI%20Risk%20%26%20Opportunity%20Review"
+      <section className="border-b border-[var(--line)] bg-[var(--surface)]">
+        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-16 sm:px-6 md:grid-cols-[1fr_1fr] lg:px-8">
+          <div>
+            <h2 className="text-3xl font-semibold text-[var(--foreground)]">Learn the approach before you build.</h2>
+            <p className="mt-4 leading-7 text-[var(--muted)]">
+              Use the resources hub to track upcoming practical guides on shadow AI risk, client-data protection,
+              human review, and measurable AI workflows.
+            </p>
+            <Link
+              className="focus-ring mt-5 inline-flex rounded-md border border-[var(--line)] bg-white px-4 py-2 text-sm font-semibold text-[var(--accent)] hover:border-[var(--accent)]"
+              href="/resources"
+            >
+              Visit AI adoption resources
+            </Link>
+          </div>
+          <div>
+            <h2 className="text-3xl font-semibold text-[var(--foreground)]">Talk through your actual workflow.</h2>
+            <p className="mt-4 leading-7 text-[var(--muted)]">
+              Learn more about Asmar Partners, then schedule a review when you are ready to identify practical AI
+              opportunities and governance gaps.
+            </p>
+            <div className="mt-5 flex flex-col gap-2 sm:flex-row">
+              <Link
+                className="focus-ring inline-flex rounded-md border border-[var(--line)] bg-white px-4 py-2 text-sm font-semibold text-[var(--accent)] hover:border-[var(--accent)]"
+                href="/about"
               >
-                Schedule an AI Risk & Opportunity Review
-              </a>
+                About Asmar Partners
+              </Link>
+              <Link
+                className="focus-ring inline-flex rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white hover:bg-[var(--accent-strong)]"
+                href="/contact"
+              >
+                Schedule Review
+              </Link>
             </div>
           </div>
         </div>
       </section>
-
-      <footer className="bg-[var(--foreground)] text-white">
-        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 text-sm sm:px-6 md:grid-cols-[1fr_0.8fr] lg:px-8">
-          <div>
-            <p className="font-semibold">Asmar Partners</p>
-            <p className="mt-3 max-w-xl leading-6 text-white/70">
-              Business workflow and secure AI adoption consulting for professional-services firms.
-            </p>
-          </div>
-          <div className="md:text-right">
-            <p className="text-white/70">Contact placeholder: contact@asmarpartners.com</p>
-            <p className="mt-3 text-white/60">
-              © {new Date().getFullYear()} Asmar Partners. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
-    </main>
+      </main>
+    </>
   );
 }
