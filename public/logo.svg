@@ -1,0 +1,10 @@
+<svg width="240" height="170" viewBox="0 0 240 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Asmar Partners logo">
+  <g transform="translate(86,6) scale(0.5)">
+    <path d="M50 22 L30 22 L30 118 L50 118 M90 22 L110 22 L110 118 L90 118" fill="none" stroke="#075985" stroke-width="9" stroke-linejoin="miter"/>
+    <rect x="56" y="35.5" width="28" height="14" fill="#7DD3FC"/>
+    <rect x="56" y="63" width="28" height="14" fill="#0EA5E9"/>
+    <rect x="56" y="90.5" width="28" height="14" fill="#075985"/>
+  </g>
+  <text x="120" y="118" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="800" letter-spacing="0" fill="#075985">Asmar</text>
+  <text x="124.3" y="146" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="8" fill="#075985">PARTNERS</text>
+</svg>
