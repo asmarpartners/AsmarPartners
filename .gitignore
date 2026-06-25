@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env*.local
+.env*
+!.env.example
+.next/
+node_modules/
+out/
+dist/
+coverage/
+.playwright-cli/
+groq-logs-*.csv
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vercel
