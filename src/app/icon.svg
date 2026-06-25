@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Asmar Partners icon">
+  <rect width="140" height="140" rx="12" fill="#ffffff"/>
+  <path d="M50 22 L30 22 L30 118 L50 118 M90 22 L110 22 L110 118 L90 118" fill="none" stroke="#075985" stroke-width="9" stroke-linejoin="miter"/>
+  <rect x="56" y="35.5" width="28" height="14" fill="#7DD3FC"/>
+  <rect x="56" y="63" width="28" height="14" fill="#0EA5E9"/>
+  <rect x="56" y="90.5" width="28" height="14" fill="#075985"/>
+</svg>
