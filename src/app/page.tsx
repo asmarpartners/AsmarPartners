@@ -1,17 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { WorkflowSuggestionTool } from "@/components/workflow-suggestion-tool";
 import { createPageMetadata } from "@/lib/seo";
-import { absoluteUrl, siteConfig } from "@/lib/site-config";
+import { siteConfig } from "@/lib/site-config";
 
 const homeDescription =
-  "Asmar Partners helps professional services businesses adopt AI safely with practical workflows, governance guardrails, client-owned tools, human review, and measurable productivity gains. Schedule an AI Risk & Opportunity Review.";
+  "Asmar Partners helps professional service firms adopt AI safely with governance, secure workflows, and measurable business outcomes.";
 
-export const metadata = createPageMetadata({
+export const metadata: Metadata = createPageMetadata({
   title: siteConfig.defaultTitle,
   description: homeDescription,
   path: "/",
-  canonical: false,
 });
 
 const services = [
@@ -55,9 +55,7 @@ const examples = [
 
 export default function Home() {
   return (
-    <>
-      <link rel="canonical" href={absoluteUrl("/")} />
-      <main>
+    <main>
       <section className="border-b border-[var(--line)] bg-[var(--surface)]">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1.25fr_0.75fr] lg:px-8 lg:py-20">
           <div className="max-w-3xl">
@@ -213,7 +211,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      </main>
-    </>
+    </main>
   );
 }

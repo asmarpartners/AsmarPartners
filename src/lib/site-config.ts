@@ -1,9 +1,9 @@
 export const siteConfig = {
   businessName: "Asmar Partners",
   siteUrl: "https://www.asmarpartners.com",
-  defaultTitle: "Safe AI Adoption for Professional Services Businesses | Asmar Partners",
+  defaultTitle: "Asmar Partners | Secure AI Adoption for Professional Services",
   defaultDescription:
-    "Asmar Partners helps professional services businesses adopt AI safely with practical workflows, governance guardrails, client-owned tools, human review, and measurable productivity gains.",
+    "Asmar Partners helps professional service firms adopt AI safely with governance, secure workflows, and measurable business outcomes.",
   primaryCTA: "Schedule an AI Risk & Opportunity Review",
   serviceArea:
     "Massachusetts, Rhode Island, Connecticut, Southern New Hampshire, Greater Boston, Providence, Worcester",

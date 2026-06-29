@@ -30,7 +30,7 @@ export const servicePages = {
     path: "/ai-risk-opportunity-review",
     title: "AI Risk & Opportunity Review for Professional Services | Asmar Partners",
     description:
-      "Identify safe, practical AI opportunities in your professional services firm while reducing client-data, governance, and shadow AI risks.",
+      "Identify safe AI opportunities, reduce shadow AI risk, and clarify governance, client-data, and workflow priorities.",
     h1: "AI Risk & Opportunity Review",
     eyebrow: "Entry review for safe AI adoption",
     intro: [
@@ -144,7 +144,7 @@ export const servicePages = {
     path: "/secure-ai-adoption-sprint",
     title: "Secure AI Adoption Sprint + Prototype | Asmar Partners",
     description:
-      "Build a practical AI workflow prototype with governance guardrails, human review, client-owned tools, and measurable productivity outcomes.",
+      "Build a secure AI workflow prototype with governance guardrails, human review, client-owned tools, and measurable productivity outcomes.",
     h1: "Secure AI Adoption Sprint + Prototype",
     eyebrow: "Controlled implementation for one practical workflow",
     intro: [
@@ -274,7 +274,7 @@ export const servicePages = {
     path: "/ai-governance-professional-services",
     title: "AI Governance for Professional Services | Asmar Partners",
     description:
-      "Create practical AI governance guardrails for client data, employee AI use, human review, and safe adoption.",
+      "Create practical AI governance guardrails for client data, employee AI use, approved use cases, human review, and safe adoption.",
     h1: "AI Governance Guardrails for Professional Services Firms",
     eyebrow: "Practical rules for safe AI adoption",
     intro: [
@@ -373,7 +373,7 @@ export const servicePages = {
     path: "/client-owned-ai-workflows",
     title: "Client-Owned AI Workflows for Professional Services | Asmar Partners",
     description:
-      "Build practical AI workflow and assistant prototypes that stay owned by your business, documented, governed, and measurable.",
+      "Build client-owned AI workflows around real work with clear data boundaries, review checkpoints, documentation, governance, and measurement.",
     h1: "Client-Owned AI Workflows Built Around Your Real Work",
     eyebrow: "Practical workflow prototypes your business can own",
     intro: [
@@ -473,7 +473,7 @@ export const servicePages = {
     path: "/ai-adoption-roi-measurement",
     title: "AI Adoption & ROI Measurement | Asmar Partners",
     description:
-      "Measure AI workflow adoption, time savings, usage, risk controls, and business impact after implementation.",
+      "Measure AI adoption by workflow usage, time savings, human review, risk controls, and business impact after implementation.",
     h1: "Measure AI Adoption by Workflow, Risk, and Time Saved",
     eyebrow: "Measurement for practical AI adoption",
     intro: [

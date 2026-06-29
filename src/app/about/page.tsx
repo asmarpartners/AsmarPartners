@@ -1,12 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { Breadcrumbs, CtaSection, PageHero, SectionBlock } from "@/components/page-sections";
 import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = createPageMetadata({
+export const metadata: Metadata = createPageMetadata({
   title: "About Asmar Partners | Secure AI Adoption for Professional Services",
   description:
-    "Learn about Asmar Partners and its cybersecurity-aware approach to safe AI adoption, governance, and workflow implementation for professional services businesses.",
+    "Learn how Asmar Partners helps professional service firms adopt AI safely with cybersecurity-aware governance and workflow implementation.",
   path: "/about",
 });
 

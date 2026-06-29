@@ -1,12 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { Breadcrumbs, CtaSection, PageHero } from "@/components/page-sections";
 import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = createPageMetadata({
+export const metadata: Metadata = createPageMetadata({
   title: "AI Adoption Resources for Professional Services | Asmar Partners",
   description:
-    "Practical guides on safe AI adoption, shadow AI risk, AI governance, client data protection, and measurable AI workflows for professional services businesses.",
+    "Explore practical AI adoption resources on governance, shadow AI risk, client-data protection, human review, and measurable workflows.",
   path: "/resources",
 });
 

@@ -1,11 +1,13 @@
+import type { Metadata } from "next";
+
 import { Breadcrumbs, PageHero } from "@/components/page-sections";
 import { createPageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
 
-export const metadata = createPageMetadata({
+export const metadata: Metadata = createPageMetadata({
   title: "Schedule an AI Risk & Opportunity Review | Asmar Partners",
   description:
-    "Request an AI Risk & Opportunity Review for your professional services business and identify safe, practical AI workflow opportunities.",
+    "Request an AI Risk & Opportunity Review to identify safe AI workflow opportunities, governance gaps, and client-data risk.",
   path: "/contact",
 });
 
