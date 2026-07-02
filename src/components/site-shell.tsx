@@ -70,8 +70,8 @@ export function SiteFooter() {
         <div>
           <p className="font-semibold">{siteConfig.businessName}</p>
           <p className="mt-3 max-w-xl leading-6 text-white/70">
-            Safe AI adoption for professional services businesses through practical workflows, governance guardrails,
-            human review, client-owned AI tools, and measurable time savings.
+            Asmar Partners helps professional-services firms turn AI experimentation into safe, repeatable workflows —
+            with clear data-use rules, human review, client-owned tools, and measured pilot outcomes.
           </p>
           <p className="mt-5 text-white/60">Service areas: {siteConfig.serviceArea}</p>
         </div>

@@ -34,34 +34,34 @@ export const servicePages = {
     h1: "AI Risk & Opportunity Review",
     eyebrow: "Entry review for safe AI adoption",
     intro: [
-      "The AI Risk & Opportunity Review helps owners and operators understand where AI can be useful, where it should be limited, and which workflow is the safest candidate for a controlled first step.",
-      "The review is designed for professional services businesses that handle client information and need practical governance guardrails before employees experiment with unmanaged AI tools.",
+      "Your team is probably already using AI — with or without rules. The AI Risk & Opportunity Review shows you where AI is useful, where it should be limited, and which workflow is the safest place to start.",
+      "It is built for professional-services firms that handle client information and want clear data-use rules in place before experimentation spreads.",
     ],
     ctaText: "Schedule an AI Risk & Opportunity Review",
-    ctaTitle: "Ready to identify the safest first AI workflow?",
+    ctaTitle: "Ready to find the safest first AI workflow?",
     ctaBody:
-      "Start with a focused review of workflow opportunity, client information risk, governance gaps, and measurable next steps.",
+      "Start with a focused review of workflow opportunity, client-information risk, governance gaps, and a practical next step.",
     serviceType: "AI risk and opportunity review for professional services businesses",
     sections: [
       {
         title: "What the review is",
         paragraphs: [
-          "The review is a structured assessment of current AI use, repetitive workflow pain points, client-data exposure, and operational readiness. It turns vague interest in AI into a prioritized adoption path.",
-          "The outcome is not a generic strategy deck. It is a practical set of recommendations for safe AI adoption, including workflows to pursue, workflows to avoid, and guardrails needed before a pilot.",
+          "The review is a structured look at how your firm actually works: current AI use, repetitive pain points, client-data exposure, and operational readiness. It turns vague interest in AI into a prioritized adoption path.",
+          "The outcome is not a strategy deck. It is a short set of practical recommendations: which workflows to pursue, which to avoid, and which guardrails need to exist before a pilot.",
         ],
       },
       {
         title: "Who it is for",
         paragraphs: [
-          "The review is built for professional services businesses such as accounting, bookkeeping, fractional CFO, consulting, agency, engineering, and architecture firms. These examples share a common need: they manage client information, knowledge work, deadlines, and review-heavy deliverables.",
-          "It is especially useful for owners, managing partners, COOs, practice managers, IT leaders, and operations teams who suspect employees are already using AI but do not yet have clear data-handling rules.",
+          "The review fits professional-services firms such as accounting, bookkeeping, fractional CFO, consulting, agency, engineering, and architecture practices. What they share: client information, deadlines, and review-heavy deliverables.",
+          "It is most useful for owners, managing partners, COOs, and operations leaders who suspect employees are already using AI but have no clear data-use rules yet.",
         ],
       },
       {
         title: "The problem: unstructured AI use and shadow AI risk",
         paragraphs: [
-          "Employees often adopt ChatGPT or other AI tools before the business has decided what information can be used, which outputs require human review, and who owns the resulting process. That creates shadow AI risk.",
-          "The business may gain small productivity wins, but it also loses visibility into client information handling, review quality, approved use cases, and whether AI-assisted work is being measured accurately.",
+          "Employees usually adopt ChatGPT before leadership decides what information can go into it, which outputs need review, and who owns the process. That is shadow AI risk.",
+          "The firm may pick up small productivity wins. What it loses is visibility: into how client information is handled, whether outputs are reviewed, and whether the time saved is real.",
         ],
       },
       {
@@ -80,7 +80,7 @@ export const servicePages = {
       {
         title: "Outcomes and deliverables",
         paragraphs: [
-          "You receive a practical adoption brief that identifies the safest first AI workflow, key risks, required governance guardrails, and a recommended path into a controlled prototype or pilot.",
+          "You leave with a practical adoption brief: the safest first AI workflow, the key risks, the guardrails you need, and a recommended path into a controlled prototype or pilot.",
         ],
         bullets: [
           "Prioritized AI workflow opportunities with risk notes.",
@@ -148,20 +148,20 @@ export const servicePages = {
     h1: "Secure AI Adoption Sprint + Prototype",
     eyebrow: "Controlled implementation for one practical workflow",
     intro: [
-      "The Secure AI Adoption Sprint turns one validated workflow into a controlled AI workflow prototype. The goal is to prove whether AI can reduce time, rework, or manual drafting while keeping human review and data-handling rules in place.",
-      "The sprint is designed around client-owned AI tools, documented decisions, practical governance guardrails, and measurable productivity outcomes.",
+      "You have found a workflow worth testing. The Secure AI Adoption Sprint turns it into a controlled prototype — built to show whether AI can cut drafting, rework, or manual time while your data-use rules and human review stay in place.",
+      "The prototype lives in tools your firm owns. Decisions are documented. Results are measured in a 30-day pilot, not promised in advance.",
     ],
     ctaText: "Start with an AI Risk & Opportunity Review",
-    ctaTitle: "Start with the right workflow before building the prototype.",
+    ctaTitle: "Pick the right workflow before building the prototype.",
     ctaBody:
-      "A focused review helps confirm which workflow is worth prototyping and what guardrails need to be in place before rollout.",
+      "A focused review confirms which workflow is worth prototyping and which guardrails need to exist before anyone relies on it.",
     serviceType: "Secure AI adoption sprint and AI workflow prototype implementation",
     sections: [
       {
         title: "What the sprint is",
         paragraphs: [
-          "The sprint is a focused implementation engagement for one workflow. It may involve an AI-assisted drafting process, intake assistant, internal knowledge workflow, review queue, or another controlled workflow where measurable time savings are realistic.",
-          "The sprint does not start by forcing a tool into the business. It starts by defining the work, data boundaries, expected output, review checkpoints, and owner responsibilities.",
+          "The sprint is a focused implementation engagement for one workflow — an AI-assisted drafting process, an intake assistant, an internal knowledge workflow, or another controlled process where real time savings are plausible.",
+          "It does not start by forcing a tool into the business. It starts by defining the work: what goes in, what data is off-limits, what comes out, and who reviews it.",
         ],
       },
       {
@@ -174,8 +174,8 @@ export const servicePages = {
       {
         title: "Why workflow comes before the tool",
         paragraphs: [
-          "AI tools only help when the business knows where the work starts, what information is allowed, who reviews the output, and how success will be measured. Without that workflow clarity, a prototype can become another unmanaged tool.",
-          "Asmar Partners maps the workflow first so the prototype serves the business process rather than becoming a disconnected experiment.",
+          "An AI tool only helps when the firm knows where the work starts, what information is allowed, who reviews the output, and how success will be judged. Without that clarity, a prototype becomes one more unmanaged tool.",
+          "Asmar Partners maps the workflow first, so the prototype serves your process instead of becoming a disconnected experiment.",
         ],
       },
       {
@@ -206,8 +206,8 @@ export const servicePages = {
       {
         title: "Human review checkpoints",
         paragraphs: [
-          "AI-assisted workflows still need human judgment. The sprint identifies where people must review outputs, validate client-facing work, correct assumptions, and approve final use.",
-          "The purpose is to reduce repetitive work without weakening professional accountability.",
+          "AI-assisted work still needs professional judgment. The sprint defines where a person must review outputs, validate client-facing work, correct assumptions, and approve final use.",
+          "The point is to cut repetitive work without weakening the accountability your clients are paying for.",
         ],
       },
       {
@@ -225,7 +225,7 @@ export const servicePages = {
       {
         title: "Measurement plan",
         paragraphs: [
-          "Measurement is defined before pilot use. The sprint tracks workflow usage, estimated time saved, review effort, exceptions, and risk-control status so the firm can make a grounded decision after the prototype.",
+          "Measurement is agreed before the pilot starts. The sprint tracks usage, estimated time saved, review effort, exceptions, and risk-control status — so the decision to expand, adjust, or stop is grounded in evidence.",
         ],
         links: [
           {
@@ -278,8 +278,8 @@ export const servicePages = {
     h1: "AI Governance Guardrails for Professional Services Firms",
     eyebrow: "Practical rules for safe AI adoption",
     intro: [
-      "AI governance should be clear enough for employees to follow during real work. Asmar Partners helps professional services businesses define practical guardrails for client information, employee AI use, human review, and controlled adoption.",
-      "The goal is to reduce shadow AI risk without burying teams in policy language they cannot apply.",
+      "Most AI policies fail for a simple reason: no one can follow them during real work. Asmar Partners helps professional-services firms write practical guardrails for client information, employee AI use, and human review.",
+      "The goal is fewer unpleasant surprises — not a policy binder no one opens.",
     ],
     ctaText: "Review Your AI Governance Risk",
     ctaTitle: "Need practical AI rules your team can actually use?",
@@ -290,15 +290,15 @@ export const servicePages = {
       {
         title: "Why AI governance matters",
         paragraphs: [
-          "Professional services businesses depend on trust, confidentiality, review quality, and consistent judgment. Unclear AI use can create risk around client information, external communications, professional work product, and internal accountability.",
-          "Practical AI governance gives employees boundaries for safe AI adoption while still allowing useful workflow improvements.",
+          "Your firm sells trust, confidentiality, and consistent judgment. Unclear AI use puts all three at risk: client information in the wrong tool, an unreviewed draft sent to a client, no one accountable for the output.",
+          "Practical governance gives employees clear boundaries while still leaving room for useful workflow improvements. Safe here means controlled, governed, and reviewed — not risk-free.",
         ],
       },
       {
         title: "Shadow AI risk",
         paragraphs: [
-          "Shadow AI happens when employees use unapproved AI tools or workflows outside management visibility. The business may not know what information is being entered, what outputs are being used, or whether the work is reviewed.",
-          "Governance guardrails help surface current usage, clarify approved tools, and define when AI-assisted work must be disclosed or reviewed internally.",
+          "Shadow AI is employees using AI tools leadership cannot see. You do not know what information is being entered, which outputs are reaching clients, or whether anyone is checking the work.",
+          "Governance guardrails surface current usage, name the approved tools, and define when AI-assisted work must be disclosed or reviewed internally.",
         ],
         links: [
           {
@@ -317,7 +317,7 @@ export const servicePages = {
       {
         title: "Approved and prohibited use cases",
         paragraphs: [
-          "Employees need examples. Governance should identify safe internal use cases, restricted use cases, and prohibited use cases in plain language.",
+          "Employees follow examples, not abstractions. Good governance names safe use cases, restricted use cases, and prohibited use cases in plain language.",
         ],
         bullets: [
           "Approved examples may include summarizing non-confidential internal notes, drafting internal checklists, or brainstorming workflow steps.",
@@ -377,27 +377,27 @@ export const servicePages = {
     h1: "Client-Owned AI Workflows Built Around Your Real Work",
     eyebrow: "Practical workflow prototypes your business can own",
     intro: [
-      "Client-owned AI workflows are designed around your real work, your data boundaries, your review expectations, and your business tools. They are not unmanaged experiments sitting in an employee's personal account.",
-      "Asmar Partners helps professional services businesses design practical AI workflow prototypes that are documented, governed, and measurable.",
+      "An AI workflow only helps if your firm still owns it after the consultant leaves. Client-owned workflows are built around your real work, your data boundaries, and your approved tools — not an employee's personal account.",
+      "Asmar Partners designs AI workflow prototypes your team can run, maintain, and govern without depending on anyone else.",
     ],
     ctaText: "Identify Your Best AI Workflow",
-    ctaTitle: "Find the workflow that is worth prototyping first.",
+    ctaTitle: "Find the workflow worth prototyping first.",
     ctaBody:
-      "A focused review can identify where a client-owned AI workflow is practical, safe, and measurable.",
+      "A focused review shows where a client-owned AI workflow is practical, safe to run, and worth measuring.",
     serviceType: "Client-owned AI workflow prototype design for professional services businesses",
     sections: [
       {
         title: "What client-owned AI workflows are",
         paragraphs: [
-          "A client-owned AI workflow is a documented process, prompt pattern, assistant configuration, or automation path that lives within business-approved tools and can be governed by the organization.",
-          "Ownership matters because professional services businesses need continuity, visibility, and data-handling rules rather than one-off experiments that only one employee understands.",
+          "A client-owned AI workflow is a documented process — a prompt pattern, an assistant configuration, or an automation path — that lives in tools your firm approves and controls.",
+          "Ownership matters because firms need continuity. A workflow only one employee understands is a risk, not an asset.",
         ],
       },
       {
         title: "Why Asmar Partners does not start with tools",
         paragraphs: [
-          "Starting with a tool can hide the real operational question: which workflow is repetitive, valuable, reviewable, and safe enough for AI assistance?",
-          "Asmar Partners starts with workflow discovery so the selected tool supports the work instead of shaping the work around a generic AI feature.",
+          "Starting with a tool hides the real question: which of your workflows is repetitive, valuable, reviewable, and safe enough for AI assistance?",
+          "Asmar Partners starts with workflow discovery, so the tool ends up serving the work — not the other way around.",
         ],
         links: [
           {
@@ -477,8 +477,8 @@ export const servicePages = {
     h1: "Measure AI Adoption by Workflow, Risk, and Time Saved",
     eyebrow: "Measurement for practical AI adoption",
     intro: [
-      "AI adoption should be measured by workflow, usage, review effort, risk controls, and time saved. Without measurement, it is hard to tell whether a prototype is improving operations or just creating another tool to manage.",
-      "Asmar Partners helps professional services businesses define practical measurement plans for AI-assisted workflows after implementation.",
+      "AI can feel productive while changing nothing. Measurement tells you whether a workflow is actually used, how much time it saves, and whether the rules are being followed — before you decide to expand it.",
+      "Asmar Partners helps professional-services firms define practical measurement plans for AI-assisted workflows after implementation.",
     ],
     ctaText: "Build a Measurable AI Adoption Plan",
     ctaTitle: "Make AI adoption measurable before you expand it.",
@@ -489,14 +489,14 @@ export const servicePages = {
       {
         title: "Why AI adoption needs measurement",
         paragraphs: [
-          "AI can feel productive while still failing to improve the business. Measurement connects AI-assisted work to workflow usage, time savings, review effort, exceptions, and risk-control status.",
-          "The goal is not a vague ROI promise. The goal is enough evidence for leadership to decide what is working and what should change.",
+          "A prototype that no one measures becomes a tool that no one questions. Measurement connects AI-assisted work to usage, time saved, review effort, exceptions, and risk-control status.",
+          "The goal is not an ROI promise. It is enough evidence for leadership to decide what is working and what should change.",
         ],
       },
       {
         title: "Time savings",
         paragraphs: [
-          "Time savings should be estimated at the workflow level, not guessed across the whole firm. A useful plan compares the previous process with the AI-assisted process and records where time is actually reduced.",
+          "Time savings should be measured at the workflow level, not guessed across the whole firm. A useful plan compares the old process with the AI-assisted one and records where time actually drops.",
         ],
       },
       {

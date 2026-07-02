@@ -26,8 +26,8 @@ export default function ContactPage() {
         eyebrow="Schedule Review"
         title="Schedule an AI Risk & Opportunity Review"
         intro={[
-          "Use this form to request a focused conversation about safe AI adoption, current AI usage, workflow opportunities, client information risk, and governance guardrails.",
-          "Do not include confidential client information, credentials, financial records, tax records, or regulated data in the form.",
+          "Use this form to request a focused conversation about where AI could help your firm, where your team is already using it, and which guardrails you need before expanding.",
+          "Please keep confidential client information, credentials, financial records, tax records, and regulated data out of the form.",
         ]}
       />
 
@@ -175,16 +175,17 @@ export default function ContactPage() {
             <h2 className="text-2xl font-semibold text-[var(--foreground)]">What happens next</h2>
             <ol className="mt-5 space-y-4 text-sm leading-6 text-[var(--muted)]">
               <li>
-                <span className="font-semibold text-[var(--foreground)]">1. Review the request.</span> Asmar Partners
-                looks for workflow fit, current AI usage, and risk themes.
+                <span className="font-semibold text-[var(--foreground)]">1. Your request gets read.</span> Asmar
+                Partners looks at workflow fit, current AI usage, and risk themes before responding.
               </li>
               <li>
-                <span className="font-semibold text-[var(--foreground)]">2. Schedule a focused conversation.</span> The
-                conversation centers on safe AI adoption, client information, governance, and measurable workflow value.
+                <span className="font-semibold text-[var(--foreground)]">2. A focused conversation.</span> It centers
+                on your actual work: client information, governance gaps, and where AI could measurably help.
               </li>
               <li>
-                <span className="font-semibold text-[var(--foreground)]">3. Identify the next step.</span> The outcome
-                may be a review, a sprint, or a recommendation to pause until the workflow is clearer.
+                <span className="font-semibold text-[var(--foreground)]">3. An honest next step.</span> That may be a
+                review, a sprint — or a recommendation to wait until the workflow is clearer. Not every firm should
+                start now.
               </li>
             </ol>
             <p className="mt-6 text-sm leading-6 text-[var(--muted)]">

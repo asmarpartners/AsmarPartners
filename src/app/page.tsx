@@ -6,7 +6,7 @@ import { createPageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
 
 const homeDescription =
-  "Asmar Partners helps professional service firms adopt AI safely with governance, secure workflows, and measurable business outcomes.";
+  "Asmar Partners helps professional-services firms turn AI experimentation into safe, repeatable workflows with clear data-use rules, human review, and measurable pilot outcomes.";
 
 export const metadata: Metadata = createPageMetadata({
   title: siteConfig.defaultTitle,
@@ -19,31 +19,31 @@ const services = [
     name: "AI Risk & Opportunity Review",
     href: "/ai-risk-opportunity-review",
     description:
-      "Identify practical AI opportunities, shadow AI risk, client-data concerns, and the safest first workflow before implementation.",
+      "Find out where AI could help, where your team may already be using it without rules, and which workflow is the safest first step.",
   },
   {
     name: "Secure AI Adoption Sprint",
     href: "/secure-ai-adoption-sprint",
     description:
-      "Build one controlled AI workflow prototype with governance guardrails, human review checkpoints, documentation, and measurement.",
+      "Build one controlled prototype with clear data-use rules and human review, then run a 30-day pilot that measures whether it is worth expanding.",
   },
   {
     name: "AI governance guardrails",
     href: "/ai-governance-professional-services",
     description:
-      "Create practical rules for employee AI use, client information, approved and prohibited use cases, and review expectations.",
+      "Give your team plain-English rules: what AI can be used for, what information stays out of it, and who reviews the output before it is used.",
   },
   {
     name: "client-owned AI workflows",
     href: "/client-owned-ai-workflows",
     description:
-      "Design AI-assisted workflows and prototypes that stay owned by your business, documented, governed, and maintainable.",
+      "Keep every workflow in tools your firm owns and controls — documented, governed, and maintainable by your own team.",
   },
   {
     name: "AI adoption measurement",
     href: "/ai-adoption-roi-measurement",
     description:
-      "Track workflow usage, measurable time savings, review effort, exceptions, and risk-control status after launch.",
+      "See whether the workflow is actually used, how much time it saves in practice, and whether the data-use rules are being followed.",
   },
 ];
 
@@ -60,15 +60,14 @@ export default function Home() {
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1.25fr_0.75fr] lg:px-8 lg:py-20">
           <div className="max-w-3xl">
             <p className="mb-4 text-sm font-semibold text-[var(--accent)]">
-              Safe AI adoption for professional services businesses
+              Safe AI adoption for professional-services firms
             </p>
             <h1 className="text-4xl font-semibold leading-[1.08] text-[var(--foreground)] sm:text-5xl lg:text-6xl">
-              Adopt AI safely without putting client data, trust, or operations at risk.
+              Secure AI adoption starts with the workflow, not the tool.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[var(--muted)]">
-              Asmar Partners helps professional services businesses identify practical AI workflows, reduce shadow AI
-              risk, create governance guardrails, and build client-owned prototypes that produce measurable time
-              savings.
+              Asmar Partners helps professional-services firms turn AI experimentation into safe, repeatable workflows
+              with clear data-use rules, human review, and measurable pilot outcomes.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
@@ -90,16 +89,18 @@ export default function Home() {
             <p className="text-sm font-semibold text-[var(--foreground)]">A practical adoption path</p>
             <ol className="mt-5 space-y-4 text-sm leading-6 text-[var(--muted)]">
               <li>
-                <span className="font-semibold text-[var(--foreground)]">1. Review risk and opportunity.</span>{" "}
-                Identify shadow AI use, client information risk, and workflows where AI could safely assist.
+                <span className="font-semibold text-[var(--foreground)]">1. Review risk and opportunity.</span> Find
+                out where your team already uses AI, what client information is exposed, and which workflow is the
+                safest place to start.
               </li>
               <li>
-                <span className="font-semibold text-[var(--foreground)]">2. Build guardrails first.</span> Define
-                approved use cases, data-handling rules, human review points, and ownership.
+                <span className="font-semibold text-[var(--foreground)]">2. Build guardrails first.</span> Agree on
+                data-use rules, approved use cases, and where a person must review the work — before anything expands.
               </li>
               <li>
-                <span className="font-semibold text-[var(--foreground)]">3. Prototype and measure.</span> Test one
-                workflow with client-owned AI tools, documentation, usage tracking, and measurable time savings.
+                <span className="font-semibold text-[var(--foreground)]">3. Prototype and measure.</span> Build one
+                controlled prototype in tools your firm owns, then run a 30-day pilot to measure whether it earns a
+                place in your operations.
               </li>
             </ol>
           </div>
@@ -111,11 +112,12 @@ export default function Home() {
           <div className="max-w-2xl">
             <p className="text-sm font-semibold text-[var(--accent)]">Services</p>
             <h2 className="mt-3 text-3xl font-semibold text-[var(--foreground)]">
-              Practical AI workflows with governance, review, and measurement built in.
+              AI workflows with governance, human review, and measurement built in.
             </h2>
             <p className="mt-4 leading-7 text-[var(--muted)]">
-              Asmar Partners is not generic AI consulting. The work starts with workflow fit, client information risk,
-              and the controls needed for safe AI adoption.
+              This is not generic AI consulting. Every engagement starts with the work your team already does, then
+              adds the data-use rules and review steps that make AI safe to rely on. Safe means controlled, governed,
+              and reviewed — not risk-free.
             </p>
           </div>
           <div className="mt-10 divide-y divide-[var(--line)] border-y border-[var(--line)]">
@@ -138,13 +140,13 @@ export default function Home() {
           <div>
             <p className="text-sm font-semibold text-[var(--accent)]">Built for service businesses</p>
             <h2 className="mt-3 text-3xl font-semibold text-[var(--foreground)]">
-              Useful for teams that handle client information and review-heavy work.
+              Built for firms where client trust is the business.
             </h2>
           </div>
           <div>
             <p className="leading-7 text-[var(--muted)]">
-              The approach applies to professional services businesses where client trust, operational consistency, and
-              human review matter. Examples include:
+              If your team handles client information and review-heavy work, one careless AI experiment can cost more
+              than the time it saves. The approach fits professional-services firms such as:
             </p>
             <ul className="mt-5 grid gap-3 text-[var(--muted)] sm:grid-cols-3">
               {examples.map((example) => (
@@ -162,11 +164,11 @@ export default function Home() {
           <div className="max-w-3xl">
             <p className="text-sm font-semibold text-[var(--accent)]">Workflow Preview</p>
             <h2 className="mt-3 text-3xl font-semibold text-[var(--foreground)]">
-              Preview where AI might safely assist internal work.
+              See where AI might safely assist your internal work.
             </h2>
             <p className="mt-4 leading-7 text-[var(--muted)]">
-              Enter your role and optionally describe repetitive work. The preview suggests internal workflow
-              opportunities, filters out work you say is already handled, and keeps client information out of the input.
+              Enter your role and, if you like, the repetitive work that eats your week. The preview suggests internal
+              workflow opportunities, skips what you say is already handled, and never asks for client information.
             </p>
           </div>
           <WorkflowSuggestionTool />
@@ -178,8 +180,8 @@ export default function Home() {
           <div>
             <h2 className="text-3xl font-semibold text-[var(--foreground)]">Learn the approach before you build.</h2>
             <p className="mt-4 leading-7 text-[var(--muted)]">
-              Use the resources hub to track upcoming practical guides on shadow AI risk, client-data protection,
-              human review, and measurable AI workflows.
+              The resources hub tracks practical guides on shadow AI risk, protecting client information, where human
+              review belongs, and how to pick a first workflow.
             </p>
             <Link
               className="focus-ring mt-5 inline-flex rounded-md border border-[var(--line)] bg-white px-4 py-2 text-sm font-semibold text-[var(--accent)] hover:border-[var(--accent)]"
@@ -191,8 +193,8 @@ export default function Home() {
           <div>
             <h2 className="text-3xl font-semibold text-[var(--foreground)]">Talk through your actual workflow.</h2>
             <p className="mt-4 leading-7 text-[var(--muted)]">
-              Learn more about Asmar Partners, then schedule a review when you are ready to identify practical AI
-              opportunities and governance gaps.
+              A focused conversation about your real work beats a demo of someone else&apos;s. When you are ready,
+              schedule an AI Risk & Opportunity Review to find your practical opportunities and governance gaps.
             </p>
             <div className="mt-5 flex flex-col gap-2 sm:flex-row">
               <Link

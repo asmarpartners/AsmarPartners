@@ -74,7 +74,7 @@ export default function ResourcesPage() {
       <PageHero
         eyebrow="Resources"
         title="AI Adoption Resources for Professional Services Businesses"
-        intro="Practical guides for owners and operators who want safe AI adoption, clearer governance guardrails, reduced shadow AI risk, protected client information, and measurable workflow improvement."
+        intro="Practical guides for owners and operators: how to adopt AI safely, write governance your team will follow, spot shadow AI risk, protect client information, and measure whether a workflow is working."
       />
 
       <section className="border-b border-[var(--line)]">
@@ -85,8 +85,8 @@ export default function ResourcesPage() {
               Upcoming practical articles
             </h2>
             <p className="mt-4 leading-7 text-[var(--muted)]">
-              These resources are planned and will be linked when complete. No empty article pages are included in the
-              sitemap.
+              These guides are in progress and will be linked here when complete — no placeholder pages, no empty
+              links.
             </p>
           </div>
           <div className="mt-10 grid gap-4 md:grid-cols-2">
@@ -125,8 +125,8 @@ export default function ResourcesPage() {
       </section>
 
       <CtaSection
-        title="Need help applying these topics to your firm?"
-        body="Schedule a focused review to identify safe AI opportunities, client-data risks, governance gaps, and a practical first workflow."
+        title="Want help applying this to your firm?"
+        body="A focused review identifies your practical AI opportunities, client-data risks, governance gaps, and the right first workflow."
       />
     </main>
   );

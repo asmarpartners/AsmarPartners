@@ -13,31 +13,31 @@ export const metadata: Metadata = createPageMetadata({
 
 const sections = [
   {
-    title: "Founder credibility",
+    title: "Who leads the work",
     paragraphs: [
       "Asmar Partners is led by Ali El-Asmar and built for owners, managing partners, and operators who need practical judgment before adopting AI across client-sensitive work.",
-      "The firm focuses on turning AI interest into controlled workflows with clear ownership, documented rules, and measurable business value.",
+      "The focus is narrow on purpose: turning AI interest into controlled workflows with clear ownership, documented rules, and results your team can measure.",
     ],
   },
   {
-    title: "Cybersecurity background",
+    title: "A cybersecurity-aware approach",
     paragraphs: [
-      "The Asmar Partners approach is cybersecurity-aware. That means AI adoption decisions are reviewed through the lens of client information, data-handling rules, shadow AI risk, approved tools, and human review.",
-      "This is not positioned as a security audit, incident response engagement, or compliance certification. It is practical implementation support for businesses that want to reduce avoidable AI risk.",
+      "Every AI adoption decision is reviewed through a security lens: what client information is involved, which tools are approved, where shadow AI is spreading, and where a person must review the work.",
+      "To be clear about scope: this is not a security audit, incident response, or compliance certification. It is practical implementation support for firms that want to cut avoidable AI risk.",
     ],
   },
   {
-    title: "Why Asmar Partners focuses on safe AI adoption",
+    title: "Why safe AI adoption is the whole focus",
     paragraphs: [
-      "Professional services teams are already experimenting with AI. Without structure, that experimentation can happen in personal accounts, unmanaged tools, or workflows that leadership cannot see.",
-      "Asmar Partners helps businesses move from scattered experimentation to safe AI adoption: workflow discovery, governance guardrails, client-owned AI tools, review checkpoints, and measurement.",
+      "Your team is likely already experimenting with AI. Without structure, that experimentation happens in personal accounts and unmanaged tools — in workflows leadership cannot see.",
+      "Asmar Partners moves firms from scattered experimentation to governed adoption: workflow discovery, guardrails, client-owned tools, review checkpoints, and measurement.",
     ],
   },
   {
-    title: "Why professional services businesses need practical governance",
+    title: "Why practical governance matters",
     paragraphs: [
-      "Professional services businesses depend on trust, confidentiality, repeatable client work, and clear accountability. AI can help with repetitive internal work, but it should not erase review responsibility or weaken data controls.",
-      "Practical governance gives employees useful boundaries for approved AI use, prohibited information, human review, and escalation when an output is uncertain.",
+      "Professional-services firms run on trust, confidentiality, and clear accountability. AI can take on repetitive internal work — but it should never erase review responsibility or weaken data controls.",
+      "Practical governance gives employees usable boundaries: what AI is approved for, what information stays out, who reviews outputs, and when to escalate.",
     ],
     links: [
       {
@@ -49,8 +49,8 @@ const sections = [
   {
     title: "Massachusetts and New England service area",
     paragraphs: [
-      "Asmar Partners works with professional services businesses in Massachusetts and across New England, including Rhode Island, Connecticut, Southern New Hampshire, Greater Boston, Providence, and Worcester.",
-      "The work is especially relevant for firms that handle client information and want practical AI workflow improvements without creating unmanaged risk.",
+      "Asmar Partners works with professional-services firms in Massachusetts and across New England, including Rhode Island, Connecticut, Southern New Hampshire, Greater Boston, Providence, and Worcester.",
+      "The work fits firms that handle client information and want real workflow improvements without creating unmanaged risk.",
     ],
   },
 ];
@@ -68,8 +68,8 @@ export default function AboutPage() {
         eyebrow="About"
         title="About Asmar Partners"
         intro={[
-          "Asmar Partners helps professional services businesses adopt AI safely through practical workflow discovery, governance guardrails, client-owned tools, human review, and measurable time savings.",
-          "The work is designed for leaders who want the benefits of AI without exposing client information, weakening trust, or adding another unmanaged tool.",
+          "Asmar Partners helps professional-services firms turn AI experimentation into safe, repeatable workflows with clear data-use rules, human review, and measurable pilot outcomes.",
+          "The work is built for leaders who want the benefits of AI without exposing client information, weakening trust, or adding one more unmanaged tool.",
         ]}
         primaryCta={{ href: "/contact", label: "Schedule an AI Risk & Opportunity Review" }}
       />
