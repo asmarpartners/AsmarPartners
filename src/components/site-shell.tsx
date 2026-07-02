@@ -17,6 +17,7 @@ const serviceLinks = [
   { href: "/ai-governance-professional-services", label: "AI governance guardrails" },
   { href: "/client-owned-ai-workflows", label: "client-owned AI workflows" },
   { href: "/ai-adoption-roi-measurement", label: "AI adoption measurement" },
+  { href: "/ai-governance-adoption-partner", label: "AI Governance & Adoption Partner" },
 ] as const;
 
 export function SiteHeader() {

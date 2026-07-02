@@ -550,4 +550,78 @@ export const servicePages = {
       },
     ],
   },
+  retainer: {
+    path: "/ai-governance-adoption-partner",
+    title: "AI Governance & Adoption Partner Retainer | Asmar Partners",
+    description:
+      "Quarterly reviews that keep your firm's AI rules, workflows, and reporting current as tools change. Plans from $750 per month.",
+    h1: "AI Governance & Adoption Partner",
+    eyebrow: "Ongoing quarterly support after your first workflow",
+    intro: [
+      "AI tools change every quarter. The rules and workflows your firm sets up today will drift out of date — quietly — unless someone owns keeping them current.",
+      "The AI Governance & Adoption Partner retainer keeps your guardrails, training, and workflows up to date, and gives you reporting you can show clients and insurers. Plans run $750 to $1,500 per month depending on firm size.",
+    ],
+    ctaText: "Schedule an AI Risk & Opportunity Review",
+    ctaTitle: "Not sure if ongoing support is the right next step?",
+    ctaBody:
+      "Start with the free review. It shows where your firm stands today and whether a retainer, a sprint, or waiting is the honest next step.",
+    serviceType: "Ongoing AI governance and adoption support for professional-services firms",
+    sections: [
+      {
+        title: "Why ongoing support matters",
+        paragraphs: [
+          "A policy written in January can be stale by June. New AI features appear in tools your team already uses, staff habits shift, and insurers update the questions they ask. Without a review rhythm, the gap you closed reopens.",
+          "The retainer exists so your firm never has to redo the work — just keep it current.",
+        ],
+      },
+      {
+        title: "What you get each quarter",
+        paragraphs: ["The retainer is deliberately concrete. Each quarter includes:"],
+        bullets: [
+          "A review of how your team is actually using AI — including tools nobody approved.",
+          "Updates to your rules and policies as AI tools and models change.",
+          "One new workflow rollout, or a refinement of an existing one.",
+          "Adoption and time-savings reporting you can share with partners, clients, and insurers.",
+          "Priority support between quarterly reviews.",
+        ],
+      },
+      {
+        title: "Who it fits",
+        paragraphs: [
+          "Most retainer clients arrive after a Secure AI Adoption Sprint, once the first governed workflow is live and worth protecting.",
+          "It also fits firms where AI use already exists but nobody owns the rules, the review, or the reporting.",
+        ],
+        links: [{ href: "/secure-ai-adoption-sprint", label: "See how the sprint works" }],
+      },
+      {
+        title: "What it costs",
+        paragraphs: [
+          "Plans run $750 to $1,500 per month depending on firm size. The price is set before the retainer starts and reviewed annually — no surprise fees.",
+        ],
+      },
+      {
+        title: "What is not included",
+        paragraphs: [
+          "The retainer is not legal advice, compliance certification, a security audit, or incident response. Your counsel and compliance staff review and approve policy language; we keep the operational side current.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Do we need a sprint before starting a retainer?",
+        answer:
+          "Usually, yes. The sprint creates the first governed workflow and the baseline numbers the retainer maintains. Firms with existing AI foundations can sometimes start after a review instead.",
+      },
+      {
+        question: "What does a quarterly review actually look like?",
+        answer:
+          "A focused working session, not an audit. We look at what tools are in use, whether the data-use rules are being followed, what changed in the AI landscape, and which workflow to roll out or refine next. You get a plain-English summary afterward.",
+      },
+      {
+        question: "Is this the same as IT support?",
+        answer:
+          "No. The retainer covers AI rules, workflows, human review, and measurement. It complements — and does not replace — your IT provider or MSP.",
+      },
+    ],
+  },
 } satisfies Record<string, ServicePageContent>;

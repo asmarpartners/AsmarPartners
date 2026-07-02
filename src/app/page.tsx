@@ -45,6 +45,12 @@ const services = [
     description:
       "See whether the workflow is actually used, how much time it saves in practice, and whether the data-use rules are being followed.",
   },
+  {
+    name: "AI Governance & Adoption Partner",
+    href: "/ai-governance-adoption-partner",
+    description:
+      "Quarterly reviews that keep your rules, training, and workflows current as AI tools change — with reporting you can show clients and insurers.",
+  },
 ];
 
 const examples = [

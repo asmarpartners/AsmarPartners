@@ -18,6 +18,7 @@ export const sitemapPages = [
   { path: "/ai-governance-professional-services", priority: 0.8 },
   { path: "/client-owned-ai-workflows", priority: 0.8 },
   { path: "/ai-adoption-roi-measurement", priority: 0.8 },
+  { path: "/ai-governance-adoption-partner", priority: 0.8 },
   { path: "/resources", priority: 0.7 },
   { path: "/about", priority: 0.7 },
   { path: "/contact", priority: 0.8 },

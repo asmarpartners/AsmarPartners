@@ -15,3 +15,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .vercel
+tsconfig.tsbuildinfo
+asmar-trust-copywriter.skill
+asmar_partners_path_to_10_instructions.md
+codex-instructions.md
