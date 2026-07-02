@@ -36,7 +36,7 @@ const sections = [
   {
     title: "Why practical governance matters",
     paragraphs: [
-      "Professional-services firms run on trust, confidentiality, and clear accountability. AI can take on repetitive internal work — but it should never erase review responsibility or weaken data controls.",
+      "Professional-services firms run on trust, confidentiality, and clear accountability. Your engagement letters and cyber insurance already assume careful data handling — governance makes sure AI use lives up to that.",
       "Practical governance gives employees usable boundaries: what AI is approved for, what information stays out, who reviews outputs, and when to escalate.",
     ],
     links: [

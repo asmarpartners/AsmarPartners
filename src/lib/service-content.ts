@@ -32,10 +32,10 @@ export const servicePages = {
     description:
       "Identify safe AI opportunities, reduce shadow AI risk, and clarify governance, client-data, and workflow priorities.",
     h1: "AI Risk & Opportunity Review",
-    eyebrow: "Entry review for safe AI adoption",
+    eyebrow: "The free first step toward safe AI adoption",
     intro: [
       "Your team is probably already using AI — with or without rules. The AI Risk & Opportunity Review shows you where AI is useful, where it should be limited, and which workflow is the safest place to start.",
-      "It is built for professional-services firms that handle client information and want clear data-use rules in place before experimentation spreads.",
+      "You leave knowing exactly where your firm stands — from unmanaged AI use to governed and measured — and what to do about it. No technical background needed to act on the findings.",
     ],
     ctaText: "Schedule an AI Risk & Opportunity Review",
     ctaTitle: "Ready to find the safest first AI workflow?",
@@ -60,8 +60,8 @@ export const servicePages = {
       {
         title: "The problem: unstructured AI use and shadow AI risk",
         paragraphs: [
-          "Employees usually adopt ChatGPT before leadership decides what information can go into it, which outputs need review, and who owns the process. That is shadow AI risk.",
-          "The firm may pick up small productivity wins. What it loses is visibility: into how client information is handled, whether outputs are reviewed, and whether the time saved is real.",
+          "Employees usually adopt ChatGPT before leadership decides what information can go into it, which outputs need review, and who owns the process. That is shadow AI risk — AI use happening where leadership cannot see it.",
+          "Here is why it matters: your engagement letters, NDAs, and cyber insurance application already promise careful handling of client information. AI use nobody is tracking sits outside those promises — and you find out at renewal time, or when a client asks.",
         ],
       },
       {
@@ -80,7 +80,7 @@ export const servicePages = {
       {
         title: "Outcomes and deliverables",
         paragraphs: [
-          "You leave with a practical adoption brief: the safest first AI workflow, the key risks, the guardrails you need, and a recommended path into a controlled prototype or pilot.",
+          "You leave with a practical adoption brief in plain business language: where your firm stands today, the safest first AI workflow, the key risks, the guardrails you need, and a recommended path into a controlled prototype or pilot.",
         ],
         bullets: [
           "Prioritized AI workflow opportunities with risk notes.",
@@ -238,6 +238,7 @@ export const servicePages = {
         title: "What is included",
         paragraphs: [
           "The sprint includes workflow discovery, prototype design, governance guardrails, implementation support for the selected workflow, documentation, human review checkpoints, and a measurement plan.",
+          "Before the sprint starts, we record how the work happens today — how long tasks take and how often they occur — so the 30-day pilot has real numbers to compare against. At the final review, most firms choose to continue with a quarterly partnership that keeps rules, training, and workflows current as AI tools change.",
         ],
       },
       {
@@ -278,8 +279,8 @@ export const servicePages = {
     h1: "AI Governance Guardrails for Professional Services Firms",
     eyebrow: "Practical rules for safe AI adoption",
     intro: [
-      "Most AI policies fail for a simple reason: no one can follow them during real work. Asmar Partners helps professional-services firms write practical guardrails for client information, employee AI use, and human review.",
-      "The goal is fewer unpleasant surprises — not a policy binder no one opens.",
+      "Your firm has already promised to protect client information — in engagement letters, NDAs, and your cyber insurance application. Staff using AI without rules is a gap in promises you have already signed.",
+      "Asmar Partners helps you close that gap with guardrails people can actually follow during real work. The goal is fewer unpleasant surprises — not a policy binder no one opens.",
     ],
     ctaText: "Review Your AI Governance Risk",
     ctaTitle: "Need practical AI rules your team can actually use?",
@@ -298,7 +299,7 @@ export const servicePages = {
         title: "Shadow AI risk",
         paragraphs: [
           "Shadow AI is employees using AI tools leadership cannot see. You do not know what information is being entered, which outputs are reaching clients, or whether anyone is checking the work.",
-          "Governance guardrails surface current usage, name the approved tools, and define when AI-assisted work must be disclosed or reviewed internally.",
+          "This matters beyond the office. Cyber insurance applications increasingly ask how your firm uses AI and controls data, and clients are starting to ask the same question. Governance guardrails surface current usage, name the approved tools, and define when AI-assisted work must be reviewed — so you have a real answer.",
         ],
         links: [
           {
@@ -334,8 +335,8 @@ export const servicePages = {
       {
         title: "AI acceptable use policy support",
         paragraphs: [
-          "Asmar Partners can help shape practical AI acceptable use policy language that reflects actual workflows, data boundaries, tool ownership, and review expectations.",
-          "This support is operational and implementation-focused. It is not legal advice or compliance certification.",
+          "Asmar Partners can help shape practical AI acceptable-use policy language that reflects your actual workflows, data boundaries, tool ownership, and review expectations — written so your team can follow it, and your counsel can approve it.",
+          "To be clear about scope: this support is operational. It is not legal advice or compliance certification. Your counsel and compliance staff review and approve; we help close the AI gap in the posture you already have.",
         ],
       },
       {
@@ -478,7 +479,7 @@ export const servicePages = {
     eyebrow: "Measurement for practical AI adoption",
     intro: [
       "AI can feel productive while changing nothing. Measurement tells you whether a workflow is actually used, how much time it saves, and whether the rules are being followed — before you decide to expand it.",
-      "Asmar Partners helps professional-services firms define practical measurement plans for AI-assisted workflows after implementation.",
+      "It also gives you something most firms cannot produce: a plain-English record of how AI is used and controlled, ready for the client or insurer who asks.",
     ],
     ctaText: "Build a Measurable AI Adoption Plan",
     ctaTitle: "Make AI adoption measurable before you expand it.",
@@ -520,7 +521,8 @@ export const servicePages = {
       {
         title: "Reporting cadence",
         paragraphs: [
-          "A reporting cadence keeps adoption grounded. Weekly or monthly summaries can show usage, time saved, exceptions, review findings, and recommendations for the next iteration.",
+          "A reporting cadence keeps adoption grounded. Weekly or monthly summaries show usage, time saved, exceptions, review findings, and recommendations for the next iteration.",
+          "These summaries do double duty: they are also the record you can show a client or an insurer who asks how AI is governed at your firm.",
         ],
         links: [
           {

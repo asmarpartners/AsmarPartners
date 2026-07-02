@@ -19,7 +19,7 @@ const services = [
     name: "AI Risk & Opportunity Review",
     href: "/ai-risk-opportunity-review",
     description:
-      "Find out where AI could help, where your team may already be using it without rules, and which workflow is the safest first step.",
+      "The free first step. Find out where AI could help, where your team may already be using it without rules, and where your firm stands today.",
   },
   {
     name: "Secure AI Adoption Sprint",
@@ -48,9 +48,9 @@ const services = [
 ];
 
 const examples = [
-  "Accounting and bookkeeping firms",
-  "Fractional CFO and consulting teams",
-  "Agencies, engineering firms, and architecture practices",
+  "Accounting, bookkeeping, and fractional CFO firms",
+  "Law practices, consultancies, and insurance agencies",
+  "Agencies, architecture, and engineering firms",
 ];
 
 export default function Home() {
@@ -100,7 +100,8 @@ export default function Home() {
               <li>
                 <span className="font-semibold text-[var(--foreground)]">3. Prototype and measure.</span> Build one
                 controlled prototype in tools your firm owns, then run a 30-day pilot to measure whether it earns a
-                place in your operations.
+                place in your operations. Many firms then continue with quarterly reviews that keep rules and
+                workflows current as AI tools change.
               </li>
             </ol>
           </div>
@@ -115,9 +116,9 @@ export default function Home() {
               AI workflows with governance, human review, and measurement built in.
             </h2>
             <p className="mt-4 leading-7 text-[var(--muted)]">
-              This is not generic AI consulting. Every engagement starts with the work your team already does, then
-              adds the data-use rules and review steps that make AI safe to rely on. Safe means controlled, governed,
-              and reviewed — not risk-free.
+              This is not generic AI consulting. Your client contracts and cyber insurance application already commit
+              your firm to careful data handling — and staff using AI without rules is a gap in those commitments.
+              Each service below helps close that gap. Safe means controlled, governed, and reviewed — not risk-free.
             </p>
           </div>
           <div className="mt-10 divide-y divide-[var(--line)] border-y border-[var(--line)]">
@@ -145,8 +146,9 @@ export default function Home() {
           </div>
           <div>
             <p className="leading-7 text-[var(--muted)]">
-              If your team handles client information and review-heavy work, one careless AI experiment can cost more
-              than the time it saves. The approach fits professional-services firms such as:
+              If your firm does repeatable knowledge work on confidential client information, you have already signed
+              promises about protecting it — in engagement letters, NDAs, and insurance paperwork. The approach fits
+              professional-services firms such as:
             </p>
             <ul className="mt-5 grid gap-3 text-[var(--muted)] sm:grid-cols-3">
               {examples.map((example) => (
