@@ -6,14 +6,14 @@ import { siteConfig } from "@/lib/site-config";
 const navLinks = [
   { href: "/#services", label: "Services" },
   { href: "/ai-risk-opportunity-review", label: "AI Risk Review" },
-  { href: "/secure-ai-adoption-sprint", label: "Sprint" },
+  { href: "/secure-ai-adoption-sprint", label: "Adoption Build" },
   { href: "/resources", label: "Resources" },
   { href: "/about", label: "About" },
 ] as const;
 
 const serviceLinks = [
   { href: "/ai-risk-opportunity-review", label: "AI Risk & Opportunity Review" },
-  { href: "/secure-ai-adoption-sprint", label: "Secure AI Adoption Sprint" },
+  { href: "/secure-ai-adoption-sprint", label: "Secure AI Adoption Build" },
   { href: "/ai-governance-professional-services", label: "AI governance guardrails" },
   { href: "/client-owned-ai-workflows", label: "client-owned AI workflows" },
   { href: "/ai-adoption-roi-measurement", label: "AI adoption measurement" },
@@ -31,10 +31,13 @@ export function SiteHeader() {
             width={240}
             height={170}
             priority
-            className="h-28 w-auto sm:h-32"
+            className="h-32 w-auto sm:h-36 lg:h-40"
           />
         </Link>
-        <nav aria-label="Main navigation" className="hidden items-center gap-6 text-sm text-[var(--muted)] lg:flex">
+        <nav
+          aria-label="Main navigation"
+          className="hidden items-center gap-7 text-base font-medium text-[var(--muted)] lg:flex"
+        >
           {navLinks.map((link) => (
             <Link key={link.href} className="focus-ring rounded-md hover:text-[var(--foreground)]" href={link.href}>
               {link.label}
@@ -42,7 +45,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <Link
-          className="focus-ring inline-flex shrink-0 justify-center rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white hover:bg-[var(--accent-strong)]"
+          className="focus-ring inline-flex shrink-0 justify-center rounded-md bg-[var(--accent)] px-5 py-2.5 text-base font-semibold text-white hover:bg-[var(--accent-strong)]"
           href="/contact"
         >
           Schedule Review
@@ -50,7 +53,7 @@ export function SiteHeader() {
       </div>
       <nav
         aria-label="Mobile navigation"
-        className="border-t border-[var(--line)] px-5 py-3 text-sm text-[var(--muted)] sm:px-6 lg:hidden"
+        className="border-t border-[var(--line)] px-5 py-3 text-base font-medium text-[var(--muted)] sm:px-6 lg:hidden"
       >
         <div className="mx-auto flex max-w-6xl gap-4 overflow-x-auto">
           {navLinks.map((link) => (
@@ -71,8 +74,8 @@ export function SiteFooter() {
         <div>
           <p className="font-semibold">{siteConfig.businessName}</p>
           <p className="mt-3 max-w-xl leading-6 text-white/70">
-            Asmar Partners helps professional-services firms turn AI experimentation into safe, repeatable workflows —
-            with clear data-use rules, human review, client-owned tools, and measured pilot outcomes.
+            Asmar Partners helps professional-services firms implement AI safely, with clear data-use rules, human
+            review, tools the firm owns, and results measured in a pilot.
           </p>
           <p className="mt-5 text-white/60">Service areas: {siteConfig.serviceArea}</p>
         </div>

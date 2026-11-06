@@ -26,7 +26,7 @@ export default function ContactPage() {
         eyebrow="Schedule Review"
         title="Schedule an AI Risk & Opportunity Review"
         intro={[
-          "Use this form to request a focused conversation about where AI could help your firm, where your team is already using it, and which guardrails you need before expanding.",
+          "Use this form to request a focused conversation about where AI could help your firm, how your team is already using it, and which rules you would want in place before expanding.",
           "Please keep confidential client information, credentials, financial records, tax records, and regulated data out of the form.",
         ]}
       />
@@ -180,12 +180,13 @@ export default function ContactPage() {
               </li>
               <li>
                 <span className="font-semibold text-[var(--foreground)]">2. A focused conversation.</span> It centers
-                on your actual work: client information, governance gaps, and where AI could measurably help.
+                on your actual work: how client information is handled, what rules exist today, and where AI could
+                measurably help.
               </li>
               <li>
                 <span className="font-semibold text-[var(--foreground)]">3. An honest next step.</span> That may be a
-                review, a sprint — or a recommendation to wait until the workflow is clearer. Not every firm should
-                start now.
+                review, a build, or a recommendation to wait until the workflow is clearer. Not every firm should
+                start right away.
               </li>
             </ol>
             <p className="mt-6 text-sm leading-6 text-[var(--muted)]">

@@ -39,11 +39,11 @@ export default function Image() {
               {siteConfig.businessName}
             </div>
             <div style={{ display: "flex", maxWidth: 900, marginTop: 42, fontSize: 72, lineHeight: 1.03, fontWeight: 700 }}>
-              Safe AI adoption for professional services businesses
+              Secure AI adoption to enhance your workflow
             </div>
           </div>
           <div style={{ display: "flex", maxWidth: 920, fontSize: 30, lineHeight: 1.35, color: "#5e6874" }}>
-            Practical workflows, governance guardrails, client-owned tools, human review, and measurable time savings.
+            Helping professional-services firms implement AI safely, with human review and measurable outcomes.
           </div>
         </div>
       </div>

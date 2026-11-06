@@ -43,7 +43,12 @@ const serviceLinks = [
   {
     href: "/ai-risk-opportunity-review",
     label: "AI Risk & Opportunity Review",
-    description: "Start by identifying safe opportunities and shadow AI risk.",
+    description: "Start by understanding how AI is used today and where it could help.",
+  },
+  {
+    href: "/secure-ai-adoption-sprint",
+    label: "Secure AI Adoption Build",
+    description: "Build one controlled prototype and measure it in a 30-day pilot.",
   },
   {
     href: "/ai-governance-professional-services",
@@ -74,7 +79,7 @@ export default function ResourcesPage() {
       <PageHero
         eyebrow="Resources"
         title="AI Adoption Resources for Professional Services Businesses"
-        intro="Practical guides for owners and operators: how to adopt AI safely, write governance your team will follow, spot shadow AI risk, protect client information, and measure whether a workflow is working."
+        intro="Practical guides for owners and operators: how to adopt AI safely, write rules your team will follow, understand how AI is already being used, protect client information, and measure whether a workflow is working."
       />
 
       <section className="border-b border-[var(--line)]">
@@ -126,7 +131,7 @@ export default function ResourcesPage() {
 
       <CtaSection
         title="Want help applying this to your firm?"
-        body="A focused review identifies your practical AI opportunities, client-data risks, governance gaps, and the right first workflow."
+        body="A focused review identifies practical AI opportunities, how client information should be handled, and a sensible first workflow."
       />
     </main>
   );

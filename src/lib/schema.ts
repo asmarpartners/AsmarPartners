@@ -17,7 +17,7 @@ export function professionalServiceSchema() {
     name: siteConfig.businessName,
     url: siteConfig.siteUrl,
     description:
-      "Asmar Partners helps professional services businesses adopt AI safely through practical workflows, governance guardrails, client-owned AI tools, human review, and measurable productivity gains.",
+      "Asmar Partners helps professional-services firms implement AI safely through practical workflows, governance guardrails, client-owned tools, human review, and measured pilot outcomes.",
     areaServed: serviceAreas(),
     founder: {
       "@type": "Person",
